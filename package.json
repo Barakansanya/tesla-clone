@@ -1,8 +1,8 @@
 {
+  "homepage": "https://barakansanya.github.io/tesla-clone",
   "name": "tesla-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://barakansanyas.github.io/tesla-clone",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
