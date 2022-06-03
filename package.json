@@ -1,5 +1,5 @@
 {
-  "homepage": "https://barakansanya.github.io/tesla-clone",
+  "homepage": "https://Barakansanya.github.io/tesla-clone",
   "name": "tesla-clone",
   "version": "0.1.0",
   "private": true,
@@ -22,11 +22,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
